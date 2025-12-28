@@ -1,0 +1,134 @@
+.hero {
+  font-family: "Poppins", sans-serif;
+  margin-top: 30px;
+  width: 100vw;
+  min-height: calc(60vh - 100px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+
+  padding-bottom: ;
+}
+
+.hero-title {
+  text-transform: uppercase;
+  display: flex;
+  font-weight: 900;
+  margin: 0;
+}
+
+.hero-title h1 {
+  margin: 0;
+  margin-right: 20px;
+  font-weight: 900;
+  font-size: 70px;
+}
+
+.hero-title h1:first-child {
+  color: var(--red-font-color);
+}
+
+.hero-title h1:last-child {
+  color: var(--yellow-font-color);
+}
+
+.hero-content h4 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 0;
+  text-align: left;
+}
+
+.hero-button {
+  text-align: left;
+}
+
+.hero-button button {
+  text-transform: uppercase;
+  border-radius: 0;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+.hero-button button:first-child {
+  border: 2px solid var(--yellow-font-color);
+  color: var(--yellow-font-color);
+}
+
+.hero-button button:last-child {
+  background-color: var(--red-font-color);
+  border: 2px solid var(--red-font-color);
+  color: var(--yellow-font-color);
+}
+
+.hero-button button:first-child:hover {
+  background-color: var(--red-font-color);
+  transition: 0.5s;
+}
+
+.hero-button button:last-child:hover {
+  background-color: var(--yellow-font-color);
+  transition: 0.5s;
+  color: var(--red-font-color);
+}
+
+/* on desktop */
+@media (max-width: 1200px) {
+  .hero-content {
+    margin-top: 40px;
+    margin-bottom: 70px;
+  }
+
+  .hero-content h4 {
+    text-align: center;
+  }
+
+  .hero-button {
+    text-align: center;
+  }
+}
+
+/* on laptop */
+@media (max-width: 992px) {
+  .hero-title {
+    flex-direction: column;
+  }
+
+  .hero-content h4 {
+    text-align: center;
+  }
+
+  .hero-button {
+    text-align: center;
+  }
+}
+
+/* on tablet or mobile */
+@media (max-width: 768px) {
+  .hero {
+    margin-bottom: -50px;
+  }
+
+  .hero-title {
+    flex-direction: column;
+  }
+
+  .hero-content h4 {
+    text-align: center;
+  }
+
+  .hero-button {
+    text-align: center;
+  }
+
+  .hero-title h1 {
+    font-size: 50px;
+    margin-right: 0;
+  }
+
+  .hero-content h4 {
+    font-size: 24px;
+  }
+}
