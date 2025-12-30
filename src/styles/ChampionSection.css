@@ -1,0 +1,34 @@
+.champion-image {
+  height: auto;
+  background-image: url("https://static.wixstatic.com/media/887f92_bb083c5dfb2940ddb3e1e30faf2bfe00~mv2.jpg/v1/crop/x_0,y_7,w_275,h_170,q_80,enc_auto/887f92_bb083c5dfb2940ddb3e1e30faf2bfe00~mv2.jpg");
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.champion-image span h1 {
+  margin: 0;
+  color: var(--yellow-font-color);
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.champion-image span h2 {
+  margin: 0;
+  color: var(--yellow-font-color);
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.champion-winner {
+  background-color: black;
+}
+
+.champion-winner-image {
+  padding: 25px;
+  cursor: pointer;
+}
