@@ -49,3 +49,39 @@
   padding-right: 10px;
   width: 60px;
 }
+
+@media (max-width: 768px) {
+  .contact_us-image span h1 {
+    font-size: 50px;
+  }
+
+  .contact_us-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact_us-content span {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .contact_us-content span h3 {
+    text-align: center;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+
+  .contact_us-content span p {
+    padding-top: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .contact_us-map {
+    padding-top: 40px;
+  }
+
+  .contact_us-map iframe {
+    width: 90%;
+  }
+}

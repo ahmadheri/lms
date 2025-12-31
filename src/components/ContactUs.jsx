@@ -14,12 +14,10 @@ export default function ContactUs() {
         <div className="contact_us-content">
           <span>
             <h3>Alamat</h3>
-            <span>
-              <p>
-                Jl. A. Wahab Syahranie, Sidodadi, Kec. Samarinda Ulu, Kota
-                Samarinda, Kalimantan Timur 75243
-              </p>
-            </span>
+            <p>
+              Jl. A. Wahab Syahranie, Sidodadi, Kec. Samarinda Ulu, Kota
+              Samarinda, Kalimantan Timur 75243
+            </p>
           </span>
           <span>
             <h3>Kontak</h3>
