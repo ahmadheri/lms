@@ -1,6 +1,7 @@
 import Button from "../components/Button";
 import ChampionSection from "../components/ChampionSection";
 import ContactUs from "../components/ContactUs";
+import Footer from "../components/Footer";
 import GreetingCard from "../components/GreetingCard";
 import HamburgerMenu from "../components/HamburgerMenu";
 import Header from "../components/Header";
@@ -19,6 +20,7 @@ export default function Home() {
         <LeaderboardSection />
         <ChampionSection />
         <ContactUs />
+        <Footer />
       </div>
     </>
   );
