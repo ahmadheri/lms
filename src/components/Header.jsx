@@ -18,23 +18,6 @@ export default function Header() {
     <>
       <header className="header">
         <div className="header-container">
-          {/* <h1 className="header-logo">MyApp</h1> */}
-
-          {/* SIDEBAR MENU */}
-          {open && (
-              <nav className={`sidebar-menu ${open ? "sidebar-open" : ""}`}>
-                {navLinks.map((link) => (
-                  <NavLink
-                    key={link.to}
-                    to={link.to}
-                    className={({ isActive }) => (isActive ? "active" : "")}
-                  >
-                    {link.label}
-                  </NavLink>
-                ))}
-              </nav>
-            ) && <div className="overlay">onClick={() => setOpen(false)}</div>}
-
           {/* HEADER NAV */}
           <nav className="header-nav">
             {navLinks.map((link) => (
@@ -55,15 +38,37 @@ export default function Header() {
             text="Login"
           />
 
-          {/* HAMBURGER MENU */}
+          {/* HAMBURGER ICON */}
           <div
-            className={`hamburger-menu ${open ? "active" : ""}`}
+            className={`hamburger-icon ${open ? "active" : ""}`}
             onClick={() => setOpen(!open)}
           >
             <div className="line"></div>
             <div className="line"></div>
             <div className="line"></div>
           </div>
+
+          {/* SIDEBAR MENU */}
+          {open && (
+            <>
+              <div
+                className="overlay"
+                onClick={() => setOpen(false)}
+              ></div>
+              <nav className={`sidebar-menu ${open ? "sidebar-open" : ""}`}>
+                {/* Sidebar Content */}
+                {navLinks.map((link) => (
+                  <NavLink
+                    key={link.to}
+                    to={link.to}
+                    className={({ isActive }) => (isActive ? "active" : "")}
+                  >
+                    {link.label}
+                  </NavLink>
+                ))}
+              </nav>
+            </>
+          )}
         </div>
       </header>
     </>
