@@ -1,4 +1,4 @@
-import AboutUs from "../components/AboutUs";
+import AboutUs from "../components/sections/AboutUs/AboutUs";
 import Footer from "../components/layout/Footer/Footer";
 import Header from "../components/layout/Header/Header";
 

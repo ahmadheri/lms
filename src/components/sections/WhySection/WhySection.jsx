@@ -1,4 +1,4 @@
-import "../styles/WhySection.css";
+import "./WhySection.css";
 
 export default function WhySection() {
   return (

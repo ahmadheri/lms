@@ -1,4 +1,4 @@
-import "../styles/ContactUs.css";
+import "./ContactUs.css";
 
 export default function ContactUs() {
   return (

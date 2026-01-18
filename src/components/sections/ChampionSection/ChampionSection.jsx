@@ -1,4 +1,4 @@
-import "../styles/ChampionSection.css";
+import "./ChampionSection.css";
 
 export default function ChampionSection() {
   return (

@@ -1,8 +1,8 @@
-import ChampionSection from "../components/ChampionSection";
-import ContactUs from "../components/ContactUs";
-import Hero from "../components/Hero";
-import LeaderboardSection from "../components/LeaderboardSection";
-import WhySection from "../components/WhySection";
+import Hero from "../components/sections/Hero/Hero";
+import ChampionSection from "../components/sections/ChampionSection/ChampionSection";
+import ContactUs from "../components/sections/ContactUs/ContactUs";
+import LeaderboardSection from "../components/sections/LeaderboardSection/LeaderboardSection";
+import WhySection from "../components/sections/WhySection/WhySection";
 import PageLayout from "../components/layout/PageLayout";
 
 export default function Home() {
