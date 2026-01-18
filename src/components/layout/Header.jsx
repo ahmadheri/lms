@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
 import { FaCircleUser } from "react-icons/fa6";
-import "../styles/Header.css";
+import "../../styles/Header.css";
 import { useState } from "react";
-import Button from "./Button";
+import Button from "../Button";
 
 export default function Header() {
   const [open, setOpen] = useState(false);

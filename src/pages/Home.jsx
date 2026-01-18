@@ -4,7 +4,7 @@ import ContactUs from "../components/ContactUs";
 import Footer from "../components/Footer";
 import GreetingCard from "../components/GreetingCard";
 import HamburgerMenu from "../components/HamburgerMenu";
-import Header from "../components/Header";
+import Header from "../components/layout/Header";
 import Hero from "../components/Hero";
 import LeaderboardSection from "../components/LeaderboardSection";
 import WhySection from "../components/WhySection";
