@@ -1,0 +1,11 @@
+:root {
+  /* Color variables */
+  --color-yellow: #fbc423;
+  --color-red: #da0a0a;
+  --color-bg-dark: #1a1a1a;
+  --color-text-light: #ffffff;
+
+  /* Typography variables */
+  --font-family-primary: "Roboto", sans-serif;
+  --font-family-secondary: "Poppins", sans-serif;
+}

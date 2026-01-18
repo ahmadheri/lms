@@ -1,5 +1,6 @@
 import { useRoutes } from "react-router-dom";
 import { routes } from "./routes/routes";
+import "./styles/variables.css";
 import "./styles/globals.css";
 import { Helmet } from "react-helmet";
 

@@ -1,5 +1,5 @@
 import "../styles/LeaderboardSection.css";
-import Button from "./Button";
+import Button from "./ui/Button/Button";
 
 export default function LeaderboardSection() {
   return (
