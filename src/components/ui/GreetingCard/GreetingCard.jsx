@@ -1,4 +1,4 @@
-import "../styles/GreetingCard.css";
+import "./GreetingCard.css";
 
 const GreetingCard = ({ name }) => {
   return (
