@@ -19,7 +19,7 @@ button:focus-visible {
 }
 
 .login-button {
-  color: var(--yellow-font-color);
+  color: var(--color-yellow);
 }
 
 .button-icon {
@@ -27,7 +27,7 @@ button:focus-visible {
 }
 
 .button-peringkat {
-  background-color: var(--yellow-font-color);
+  background-color: var(--color-yellow);
   color: white;
   font-weight: 700;
   text-transform: uppercase;

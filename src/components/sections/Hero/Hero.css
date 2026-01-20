@@ -1,5 +1,5 @@
 .hero {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-family-secondary);
   margin-top: 30px;
   width: 100vw;
   min-height: calc(60vh - 100px);
@@ -8,8 +8,6 @@
   justify-content: center;
   align-items: center;
   background: #000;
-
-  padding-bottom: ;
 }
 
 .hero-title {
@@ -27,11 +25,11 @@
 }
 
 .hero-title h1:first-child {
-  color: var(--red-font-color);
+  color: var(--color-red);
 }
 
 .hero-title h1:last-child {
-  color: var(--yellow-font-color);
+  color: var(--color-yellow);
 }
 
 .hero-content h4 {
@@ -53,25 +51,25 @@
 }
 
 .hero-button button:first-child {
-  border: 2px solid var(--yellow-font-color);
-  color: var(--yellow-font-color);
+  border: 2px solid var(--color-yellow);
+  color: var(--color-yellow);
 }
 
 .hero-button button:last-child {
-  background-color: var(--red-font-color);
-  border: 2px solid var(--red-font-color);
-  color: var(--yellow-font-color);
+  background-color: var(--color-red);
+  border: 2px solid var(--color-red);
+  color: var(--color-yellow);
 }
 
 .hero-button button:first-child:hover {
-  background-color: var(--red-font-color);
+  background-color: var(--color-red);
   transition: 0.5s;
 }
 
 .hero-button button:last-child:hover {
-  background-color: var(--yellow-font-color);
+  background-color: var(--color-yellow);
   transition: 0.5s;
-  color: var(--red-font-color);
+  color: var(--color-red);
 }
 
 /* on desktop */
