@@ -2,25 +2,11 @@
   /* Color variables */
   --color-yellow: #fbc423;
   --color-red: #da0a0a;
+
   --color-bg-dark: #1a1a1a;
   --color-text-light: #ffffff;
 
   /* Typography variables */
-  --font-family-primary: "Roboto", sans-serif;
-  --font-family-secondary: "Poppins", sans-serif;
-
-  /* font-family: "Roboto", sans-serif; */
-  line-height: 1.5;
-  font-weight: 400;
-  /* --yellow-font-color: #fbc423; */
-  /* --red-font-color: #da0a0a; */
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Roboto", sans-serif;
 }

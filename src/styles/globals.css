@@ -1,10 +1,26 @@
 /* Global styles for the application */
-html {
-  max-width: 100vw;
-  margin: 0 auto;
-  text-align: center;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
+/* Best practice for html is to set a structure and scaling */
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
+
+/* body for typography */
 body {
   margin: 0;
+  font-family: var(--font-family-primary);
+  font-weight: 400;
+  color: #fff;
+  background-color: #111;
+
+  text-rendering: optimizeLegibility; /* Enhance text rendering for better legibility */
+  -webkit-font-smoothing: antialiased; /* Improve font rendering on WebKit browsers */
+  -moz-osx-font-smoothing: grayscale; /* Improve font rendering on macOS Firefox */
 }
