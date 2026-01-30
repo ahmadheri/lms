@@ -1,6 +1,6 @@
 .hero {
-  font-family: var(--font-family-secondary);
-  margin-top: 30px;
+  font-family: var(--font-primary);
+  margin-top: 3vw;
   width: 100vw;
   min-height: calc(60vh - 100px);
 
@@ -20,6 +20,7 @@
 .hero-title h1 {
   margin: 0;
   margin-right: 20px;
+  text-align: center;
   font-weight: 900;
   font-size: 70px;
 }
