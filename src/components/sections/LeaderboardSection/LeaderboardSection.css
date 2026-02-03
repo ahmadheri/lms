@@ -1,6 +1,6 @@
 .leaderboard-image {
   width: 100%;
-  height: auto;
+  height: 30vh;
   background-image: url("https://static.wixstatic.com/media/887f92_53b544d820884f20b9beaee16111a31c~mv2.jpg/v1/fill/w_1230,h_170,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/887f92_53b544d820884f20b9beaee16111a31c~mv2.jpg");
   background-size: cover;
   background-position: center;
@@ -8,21 +8,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .leaderboard-image span h1 {
   margin: 0;
-  color: var(--yellow-font-color);
+  font-family: var(--font-primary);
   font-size: 70px;
   text-transform: uppercase;
+  color: var(--color-yellow);
   font-weight: 900;
 }
 
 .leaderboard-image span h2 {
   margin: 0;
-  color: var(--yellow-font-color);
+  font-family: var(--font-primary);
   font-size: 50px;
   text-transform: uppercase;
+  color: var(--color-yellow);
   font-weight: 800;
 }
 
@@ -33,17 +36,21 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  text-align: center;
 }
 
 .contestant-name p {
   padding: 35px;
+  font-family: var(--font-secondary);
 }
 
 .contestant-score p {
   padding: 35px;
+  font-family: var(--font-secondary);
 }
 
 .button-wrapper {
+  text-align: center;
   background-color: black;
   padding: 20px;
 }

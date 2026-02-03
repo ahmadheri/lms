@@ -108,6 +108,7 @@
 @media (max-width: 768px) {
   .hero {
     margin-bottom: -50px;
+    margin-top: 7vw;
   }
 
   .hero-title {
@@ -129,5 +130,11 @@
 
   .hero-content h4 {
     font-size: 24px;
+  }
+}
+
+@media (max-width: 590px) {
+  .hero {
+    margin-top: 7vw;
   }
 }

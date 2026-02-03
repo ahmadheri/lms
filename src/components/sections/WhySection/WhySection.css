@@ -18,7 +18,7 @@
 }
 
 .why-image span h1 {
-  font-family: var(--font-family-primary);
+  font-family: var(--font-primary);
   position: absolute;
   top: 10%;
   left: 15%;
@@ -37,7 +37,7 @@
   background-color: black;
   text-align: left;
   padding-left: 30px;
-  font-family: var(--font-family-secondary);
+  font-family: var(--font-secondary);
   color: white;
 }
 
@@ -71,8 +71,8 @@
     position: absolute;
     top: 20%;
     left: 50%;
-    font-size: 40px;
-    transform: translate(-50%);
+    font-size: 50px;
+    transform: translate(-50%, -30%);
     text-align: center;
   }
 
@@ -85,7 +85,7 @@
 @media (max-width: 590px) {
   .why-image span h1 {
     top: 0%;
-    transform: translate(-50%, 50%);
-    font-size: 30px;
+    transform: translate(-50%, 5%);
+    font-size: 39px;
   }
 }

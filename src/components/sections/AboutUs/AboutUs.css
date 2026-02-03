@@ -30,11 +30,11 @@
   width: 50vw;
   top: 20%;
   left: 5%;
+  font-family: var(--font-primary);
   font-size: 70px;
   font-weight: 800;
-  color: var(--yellow-font-color);
+  color: var(--color-yellow);
   transform: translate(-10%);
-  text-transform: uppercase;
   line-height: 1.5;
 }
 
@@ -63,7 +63,7 @@
 
 .coach_profile-title h1 {
   text-transform: uppercase;
-  color: var(--yellow-font-color);
+  color: var(--color-yellow);
   margin: 0;
   padding: 30px;
   font-weight: 800;

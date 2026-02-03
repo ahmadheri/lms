@@ -1,5 +1,6 @@
 .contact_us-section {
   background-color: black;
+  font-family: var(--font-primary);
 }
 
 .contact_us-image {
@@ -14,7 +15,7 @@
 }
 
 .contact_us-image span h1 {
-  color: var(--yellow-font-color);
+  color: var(--color-yellow);
   font-size: 70px;
   text-transform: uppercase;
   font-weight: 900;
@@ -44,10 +45,18 @@
   padding-left: 100px;
 }
 
+.contact_us-content span:last-child {
+  text-align: center;
+}
+
 .contact_us-content span img {
   padding-left: 10px;
   padding-right: 10px;
   width: 60px;
+}
+
+.contact_us-map {
+  text-align: center;
 }
 
 @media (max-width: 768px) {
